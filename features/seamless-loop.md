@@ -28,7 +28,7 @@ This is where **SeamlessLoop** comes in. It enables an [AudioClip](https://docs.
 
 You can find the looping options in the "Settings" tab of an AudioEntity.
 
-[<mark style="color:blue;">Didn't see the option?</mark>](#user-content-fn-1)[^1]
+[<mark style="color:blue;"><p style="text-align: right;">Didn't see the option?</p></mark>](#user-content-fn-1)[^1]
 
 &#x20;
 
