@@ -14,7 +14,7 @@ In BroAudio, every sound plays through the [Audio Mixer](audio-mixer.md), with a
 
 The volume slider is based on decibel value; it's a logarithmic slider instead of a linear slider like [Audio Source](https://docs.unity3d.com/Manual/class-AudioSource.html)'s volume. This matches human sound perception better and allows for easier fine-tuning.
 
-To further ensure precision, most audio software, including [Unity Audio Mixer](https://docs.unity3d.com/Manual/AudioMixer.html), feature custom scale settings. Below is a comparison of different slider types, with each measured in decibels(dB) :
+To further ensure precision, most audio software, including [Unity Audio Mixer](https://docs.unity3d.com/Manual/AudioMixer.html), features custom scale settings. Below is a comparison of different slider types, with each measured in decibels(dB) :
 
 <figure><img src="../.gitbook/assets/Slider difference.PNG" alt=""><figcaption></figcaption></figure>
 

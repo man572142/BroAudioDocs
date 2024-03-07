@@ -34,7 +34,7 @@ When an entity is played, it will follow the rule of the following options to pi
 
 #### Volume
 
-the max audio volume that the clip will be played.
+The max audio volume that the clip will be played.
 
 #### Playback Position (in seconds)
 
@@ -58,14 +58,33 @@ The playback position can be controlled by dragging the icon on the waveform GUI
 
 ### Master Volume
 
-The overall volume setting of the entity. It is useful when using multiple clips in an entity.
+The max audio volume that the entity will be played. It is useful when using multiple clips in an entity.
 
 The final volume will be :\
 <mark style="background-color:green;">clip volume \* master volume</mark> (normalized), or <mark style="background-color:blue;">clip volume + master volume</mark>(In dB).\
 For example: the clip's volume is 0.5 (-6.02dB) and the master volume is 2 (+6.02dB), so the final volume is 1 (0dB).
 
+{% hint style="info" %}
+This setting supports randomization! click the \[RND] button to set its random range.
+{% endhint %}
+
 ### Pitch
+
+The pitch of the entity. Currently, it is the same as AudioSource's pitch, which is achieved through time stretching. The higher the pitch is set, the more it is shortened.
+
+{% hint style="info" %}
+This setting supports randomization! click the \[RND] button to set its random range.
+{% endhint %}
 
 ### Priority
 
+The same as AudioSource's priority. [see Unity's Doc](https://docs.unity3d.com/Manual/class-AudioSource.html)
+
+### Looping
+
+Let the entity automatically replay when it ends, see the [SeamlessLoop](../features/seamless-loop.md) page for more detail
+
 ### Spatial
+
+
+
