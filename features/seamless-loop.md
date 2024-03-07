@@ -24,26 +24,27 @@ Looping allows an [AudioClip](https://docs.unity3d.com/Manual/class-AudioClip.ht
 
 This is where **SeamlessLoop** comes in. It enables an [AudioClip](https://docs.unity3d.com/Manual/class-AudioClip.html) to start playing again on a new audio track just before the current one finishes. By gradually [cross-fading](fade-in-out-and-cross-fade.md#crossfade) between the two tracks, it creates an illusion that the sound never stops at all.
 
-### **How To Use?**
+## **How To Use?**
 
-You can find the looping options in the "Settings" tab of an AudioEntity.
-
+You can find the looping options in the "Settings" tab of an AudioEntity.\
 [<mark style="color:blue;">Didn't see the option?</mark>](#user-content-fn-1)[^1]
-
-<p style="text-align: center;"> p style center </p>
-<p style="text-align: right;"> p style center </p>
-<mark style="text-align: right;"> mark style right </mark>
-<center>Centered text</center>
-<right>Right text</right>
-<div align="right">div right</div>
-
-&#x20;
 
 <figure><img src="../.gitbook/assets/SeamlessLoop.png" alt=""><figcaption></figcaption></figure>
 
-{% hint style="info" %}
-If you can't see this option, it might be because the GUI setting of this AudioType is set to be invisible. Click here for more details.
-{% endhint %}
+## Options
 
+### Loop
+
+The sound will replay when it's finished.
+
+### Seamless Loop
+
+The sound will replay **before** it ends.
+
+If this option is ticked, "Seamless Setting" will appear, allowing you to set the transition timing.
+
+1. **Clip Setting:** The replay begins as the clip starts fading out.
+2. **Time:** The replay starts a specified number of seconds before the end.
+3. **Tempo:** The replay starts a specified number of beats before the end.
 
 [^1]: If you can't see this option, it might be because the GUI setting of this AudioType is set to be invisible. Click here for more details.
