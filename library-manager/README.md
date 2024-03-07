@@ -36,7 +36,7 @@ Asset is a [ScriptableObject](https://docs.unity3d.com/Manual/class-ScriptableOb
 
 An Entity represents a single sound, so when it is played, only one AudioClip from its ClipList will be played. Here, we set which AudioClip it should play, how it should be played, and what kind of performance it will have during playback.
 
-#### AudioID
+### AudioID
 
 When an entity is created in the LibraryManager, an AudioID is automatically generated. Once the AudioID is serialized (by \[SerializedField] or public), a dropdown menu appears in the inspector.
 
