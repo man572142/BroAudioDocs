@@ -28,7 +28,14 @@ This is where **SeamlessLoop** comes in. It enables an [AudioClip](https://docs.
 
 You can find the looping options in the "Settings" tab of an AudioEntity.
 
-[<mark style="color:blue;"><p style="text-align: right;">Didn't see the option?</p></mark>](#user-content-fn-1)[^1]
+[<mark style="color:blue;">Didn't see the option?</mark>](#user-content-fn-1)[^1]
+
+<p style="text-align: center;"> p style center </p>
+<p style="text-align: right;"> p style center </p>
+<mark style="text-align: right;"> mark style right </mark>
+<center>Centered text</center>
+<right>Right text</right>
+<div align="right">div right</div>
 
 &#x20;
 
@@ -37,10 +44,6 @@ You can find the looping options in the "Settings" tab of an AudioEntity.
 {% hint style="info" %}
 If you can't see this option, it might be because the GUI setting of this AudioType is set to be invisible. Click here for more details.
 {% endhint %}
-
-
-
-\
 
 
 [^1]: If you can't see this option, it might be because the GUI setting of this AudioType is set to be invisible. Click here for more details.
