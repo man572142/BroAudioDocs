@@ -82,9 +82,8 @@ The same as AudioSource's priority. [see Unity's Doc](https://docs.unity3d.com/M
 
 ### Looping
 
-Let the entity automatically replay when it ends, see the [SeamlessLoop](../features/seamless-loop.md) page for more detail
+Let the entity automatically replay when it ends, see the [Seamless Loop](../features/seamless-loop.md) page for more details.
 
 ### Spatial
 
-
-
+All the settings that show in the popup window are the same as AudioSource. [see Unity's Doc](https://docs.unity3d.com/Manual/class-AudioSource.html)
