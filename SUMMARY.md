@@ -9,7 +9,7 @@
 ## Features
 
 * [Volume Control](features/volume-control.md)
-* [Fade In/Out and Cross Fade](features/fade-in-out-and-cross-fade.md)
+* [Fade In/Out, Cross Fade](features/fade-in-out-and-cross-fade.md)
 * [Seamless Loop](features/seamless-loop.md)
 * [Audio Effect](features/audio-effect.md)
 * [Music Player](features/music-player.md)

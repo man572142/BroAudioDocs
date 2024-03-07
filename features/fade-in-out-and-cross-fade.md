@@ -18,7 +18,7 @@ layout:
     visible: true
 ---
 
-# Fade In/Out and Cross Fade
+# Fade In/Out, Cross Fade
 
 ## Fade In/Out
 
@@ -26,4 +26,5 @@ layout:
 
 ## Cross Fade
 
-Crossfading in audio is the technique of smoothly transitioning from one sound to another by gradually decreasing the volume of the first sound while simultaneously increasing the volume of the second.
+Crossfading is the technique of smoothly transitioning from one sound to another by gradually decreasing the volume of the first sound while simultaneously increasing the volume of the second.
+
