@@ -31,7 +31,7 @@ This is where **SeamlessLoop** comes in. It enables an [AudioClip](https://docs.
 You can find the **Looping** option in the 'Settings' tab of an AudioEntity. If one of the looping options is selected, the AudioEntity will play accordingly.\
 [<mark style="color:blue;">Didn't see the option?</mark>](#user-content-fn-1)[^1]
 
-<figure><img src="../.gitbook/assets/SeamlessLoop.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/SeamlessLoop.png" alt=""><figcaption></figcaption></figure>
 
 ### Loop
 

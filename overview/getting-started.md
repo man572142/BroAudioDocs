@@ -28,11 +28,11 @@ Locate _**Tools/BroAudio/LibraryManager**_ in the Unity menu bar.
 
 ### Create an Asset and Entity by drag and drop
 
-<figure><img src=".gitbook/assets/DragNDrop.gif" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/DragNDrop.gif" alt="" width="563"><figcaption></figcaption></figure>
 
 If multiple clips are dropped, a confirmation window will appear, asking how you would like to structure them.
 
-### Name it and choose an [AudioType](bro-wiki/broaudio.md#audiotype)
+### Name it and choose an [AudioType](../bro-wiki/broaudio.md#audiotype)
 
 You could also skip this step and start editing. It will be saved as a Temp entity. Just remember to set it before you actually need them in your scene.
 
@@ -44,13 +44,13 @@ edit the clip's volume, playback position... etc.
 
 ## Implementation
 
-### Declare an [AudioID](bro-wiki/broaudio.md#audioid) and use BroAudio.Play() to play it
+### Declare an [AudioID](../bro-wiki/broaudio.md#audioid) and use BroAudio.Play() to play it
 
-![](.gitbook/assets/BasicAPI.svg)
+![](../.gitbook/assets/BasicAPI.svg)
 
 #### Set the AudioID in the Inspector
 
-![](.gitbook/assets/AudioID.gif)
+![](../.gitbook/assets/AudioID.gif)
 
 The AudioID is the entity name that you've created in LibraryManager
 

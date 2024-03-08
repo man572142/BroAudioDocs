@@ -40,7 +40,7 @@ An Entity represents a single sound, so when it is played, only one AudioClip fr
 
 When an entity is created in the LibraryManager, an AudioID is automatically generated. Once the AudioID is serialized (by \[SerializedField] or public), a dropdown menu appears in the inspector.
 
-[see how to do this in action](../getting-started.md#declare-an-audioid-and-use-broaudio.play-to-play-it)
+[see how to do this in action](../overview/getting-started.md#declare-an-audioid-and-use-broaudio.play-to-play-it)
 
 ###
 

@@ -1,20 +1,25 @@
 # Table of contents
 
+## Overview
+
 * [Introduction](README.md)
-* [Getting Started](getting-started.md)
+* [Getting Started](overview/getting-started.md)
+
+***
+
 * [Library Manager](library-manager/README.md)
   * [Create The Library](library-manager/create-the-library.md)
-  * [Design The Sound](library-manager/design-the-sound.md)
+  * [Design The Sound](library-manager/design-the-sound/README.md)
+    * [Volume](library-manager/design-the-sound/volume-control.md)
+    * [Fade In/Out, Cross Fade](library-manager/design-the-sound/fade-in-out-and-cross-fade.md)
+    * [Seamless Loop](library-manager/design-the-sound/seamless-loop.md)
 
-## Features
+## API Features
 
-* [Volume Control](features/volume-control.md)
-* [Fade In/Out, Cross Fade](features/fade-in-out-and-cross-fade.md)
-* [Seamless Loop](features/seamless-loop.md)
-* [Audio Effect](features/audio-effect.md)
-* [Music Player](features/music-player.md)
-* [Dominator Player](features/dominator-player.md)
-* [Audio Mixer](features/audio-mixer.md)
+* [Music Player](api-features/music-player.md)
+* [Dominator Player](api-features/dominator-player.md)
+* [Audio Mixer](api-features/audio-mixer.md)
+* [Audio Effect](api-features/audio-effect.md)
 
 ## Tools
 
@@ -23,7 +28,7 @@
 
 ***
 
-* [API Documentation](api-documentation/README.md)
+* [Scripting API](api-documentation/README.md)
   * [Class](api-documentation/class/README.md)
     * [BroAudio](api-documentation/class/broaudio.md)
     * [BroAdvice](api-documentation/class/broadvice.md)

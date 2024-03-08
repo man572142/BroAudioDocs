@@ -1,12 +1,14 @@
-# Design The Sound
+---
+description: How a sound would be played and how it will behave is all set in Entity.
+---
 
-How a sound would be played and how it will behave is all recorded in Entity.
+# Design The Sound
 
 ## Name
 
 Click the text field to name the entity when it's unfolded.&#x20;
 
-The name will be used in the AudioID dropdown menu, so a meaningful name is recommended.
+<mark style="background-color:orange;">The name will be used in the AudioID dropdown menu, so a meaningful name is recommended.</mark>
 
 ## AudioType
 
@@ -34,7 +36,7 @@ When an entity is played, it will follow the rule of the following options to pi
 
 #### Volume
 
-The max audio volume that the clip will be played.
+The audio volume that the clip will be played. More details in [Volume Control](volume-control.md).
 
 #### Playback Position (in seconds)
 
@@ -58,7 +60,7 @@ The playback position can be controlled by dragging the icon on the waveform GUI
 
 ### Master Volume
 
-The max audio volume that the entity will be played. It is useful when using multiple clips in an entity.
+The audio volume that the entity will be played. It is useful when using multiple clips in an entity.
 
 The final volume will be :\
 <mark style="background-color:green;">clip volume \* master volume</mark> (normalized), or <mark style="background-color:blue;">clip volume + master volume</mark>(In dB).\
@@ -82,7 +84,7 @@ The same as AudioSource's priority. [see Unity's Doc](https://docs.unity3d.com/M
 
 ### Looping
 
-Let the entity automatically replay when it ends, see the [Seamless Loop](../features/seamless-loop.md) page for more details.
+Let the entity automatically replay when it ends. More details in [Seamless Loop](seamless-loop.md).
 
 ### Spatial
 
